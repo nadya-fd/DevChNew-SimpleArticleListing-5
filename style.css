@@ -28,16 +28,19 @@ body {
 
 header {
   margin: 42px;
-  font-family: 'Poppins-SemiBold', serif;
+  font-family: 'Poppins-SemiBold', sans-serif;
   font-size: 36px;
   text-align: center;
   font-weight: 600px;
 }
 
+header > img {
+  margin-top: 42px;
+}
+
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 42px;
   gap: 52px;
 }
 
@@ -58,12 +61,12 @@ section > div {
 }
 
 .text {
-  font-family: 'Poppins-SemiBold', serif;
+  font-family: 'Poppins-SemiBold', sans-serif;
   font-size: 20px;
 }
 
 .date {
-  font-family: 'Poppins-Medium', serif;
+  font-family: 'Poppins-Medium', sans-serif;
   font-size: 14px;
   color: #4d5562;
 }
